@@ -13,7 +13,7 @@ Or download ZIP/TAR archives from [here](https://github.com/thinreports/thinrepo
 Then move to application directory, and bundle:
 
     $ cd thinreports-rails3-example/
-    $ bundle install
+    $ bundle install --without development
 
 Setup database with seeds:
 
