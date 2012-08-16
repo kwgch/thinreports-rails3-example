@@ -23,7 +23,7 @@ class TasksController < ApplicationController
       format.pdf {
         send_data render_to_string, filename: "task#{@task.id}.pdf", 
                                     type: 'application/pdf', 
-                                    disposition: 'attachment'
+                                    disposition: 'inline'
       }
     end
   end
