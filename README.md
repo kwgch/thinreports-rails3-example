@@ -2,7 +2,7 @@
 
 The Simple Task Management App using ThinReports and Rails3.
 
-## How it work
+## How to run this example:
 
 Get this application source using git:
 
