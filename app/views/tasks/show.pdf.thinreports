@@ -1,4 +1,3 @@
-report.set_layout
 report.start_new_page do |page|
   page.values task: @task.id, 
               name: @task.name, 
