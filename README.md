@@ -8,7 +8,7 @@ Get this application source using git:
 
     $ git clone git://github.com/thinreports/thinreports-rails3-example.git
 
-Or download ZIP/TAR archives from [here](https://github.com/thinreports/thinreports-rails3-example/downloads).
+Or download ZIP/TAR archives from [here](https://github.com/thinreports/thinreports-rails3-example/archive/master.zip).
 
 Then move to application directory, and bundle:
 
