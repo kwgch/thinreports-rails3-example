@@ -2,6 +2,9 @@
 
 The Simple Task Management App using ThinReports and Rails3.
 
+[![Build Status](https://travis-ci.org/thinreports/thinreports-rails3-example.png)](https://travis-ci.org/thinreports/thinreports-rails3-example)
+[![Dependency Status](https://gemnasium.com/thinreports/thinreports-rails3-example.png)](https://gemnasium.com/thinreports/thinreports-rails3-example)
+
 ## How to run this example:
 
 Get this application source using git:
