@@ -11,12 +11,12 @@ Get this application source using git:
 
     $ git clone git://github.com/thinreports/thinreports-rails3-example.git
 
-Or download ZIP/TAR archives from [here](https://github.com/thinreports/thinreports-rails3-example/archive/master.zip).
+Or download ZIP archives from [here](https://github.com/thinreports/thinreports-rails3-example/archive/master.zip).
 
 Then move to application directory, and bundle:
 
     $ cd thinreports-rails3-example/
-    $ bundle install --without development
+    $ bundle install
 
 Setup database with seeds:
 
@@ -35,6 +35,12 @@ Go to `http://localhost:3000/tasks` in your browser.
 * ThinReports 0.7.5+
 * thinreports-rails 0.1.3
 * Bundler
+
+## Development
+
+### How to run all tests
+
+    $ bundle exec rake spec
 
 ## Author
 
