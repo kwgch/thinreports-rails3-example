@@ -23,7 +23,7 @@ end
 gem 'jquery-rails'
 gem 'thinreports-rails'
 
-group :development do
+group :development, :test do
   gem 'rspec-rails'
   gem 'simplecov', require: false
   gem 'guard-rspec'
