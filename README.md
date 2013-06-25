@@ -1,6 +1,7 @@
 # ThinReports Rails3 Example
 
-The Simple Task Management App using ThinReports and Rails3.
+The Simple Task Management Application using ThinReports and Rails3. 
+**Rails4 example** is [here](https://github.com/thinreports/thinreports-rails4-example).
 
 [![Build Status](https://travis-ci.org/thinreports/thinreports-rails3-example.png)](https://travis-ci.org/thinreports/thinreports-rails3-example)
 [![Dependency Status](https://gemnasium.com/thinreports/thinreports-rails3-example.png)](https://gemnasium.com/thinreports/thinreports-rails3-example)
