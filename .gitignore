@@ -16,3 +16,6 @@
 /public/assets
 
 coverage/
+
+.ruby-version
+
