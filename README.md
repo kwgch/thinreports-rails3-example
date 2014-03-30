@@ -31,15 +31,15 @@ Go to `http://localhost:3000/tasks` in your browser.
 
 ### Requirements
 
-* Ruby 1.9.2+, 2.0.0
+* Ruby 1.9.3, 2.0, 2.1
 * Rails 3.2+
-* ThinReports 0.7.5+
+* ThinReports 0.7.5, 0.7.6, 0.7.7
 * thinreports-rails 0.1.3
 * Bundler
 
 ## Development
 
-### How to run all tests
+### How to run the test
 
     $ bundle exec rake spec
 
