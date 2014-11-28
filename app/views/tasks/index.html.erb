@@ -1,6 +1,7 @@
 <h1>Listing tasks</h1>
 
-<table>
+<div class="table-responsive">
+<table class="table table-hover table-bordered table-striped">
   <tr>
     <th>Name</th>
     <th>Due date</th>
@@ -15,9 +16,9 @@
     <td><%= task.name %></td>
     <td><%= task.due_date %></td>
     <td><%= task.done %></td>
-    <td><%= link_to 'Show', task %></td>
-    <td><%= link_to 'Edit', edit_task_path(task) %></td>
-    <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td class="info center"><%= link_to '参照', task %></td>
+    <td class="success center"><%= link_to '編集', edit_task_path(task) %></td>
+    <td class="danger center"><%= link_to '削除', task, method: :delete, data: { confirm: '削除します。よろしいですか？' } %></td>
   </tr>
 <% end %>
 </table>
